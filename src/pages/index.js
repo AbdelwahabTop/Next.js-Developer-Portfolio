@@ -1,4 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
+import HireMe from "@/components/HireMe";
 import { LinkArrow } from "@/components/icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
@@ -56,6 +57,8 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+
+        <HireMe />
       </main>
     </>
   );
