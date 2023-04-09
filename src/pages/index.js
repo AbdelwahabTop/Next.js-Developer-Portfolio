@@ -64,7 +64,7 @@ export default function Home() {
         <div className="absolute right-8 bottom-8 inline-block w-24">
           <Image src={lightBulb} alt="Abdo" className="w-full h-auto" />
         </div>
-      </main>
+      </main> 
     </>
   );
 }
