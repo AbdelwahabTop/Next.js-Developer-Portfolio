@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/crypto-screener-cover-image.j
 import crwn from "../../public/images/projects/crwn2.png";
 import github from "../../public/images/projects/github.png";
 import gym from "../../public/images/projects/gym (2).png";
+import forkify from "../../public/images/projects/Adeline Palmerston (1).png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -156,7 +157,7 @@ const projects = () => {
                 stack that includes React, TypeScript, Firebase, Stripe, Redux, and GraphQL. 
                 The website allows users to browse through clothing items, add them to their shopping cart, 
                 and complete the purchase process with an integrated payment system."
-                link="https://genuine-pasca-711814.netlify.app/"
+                link="https://crwn-clothing-abdelwa7ab.netlify.app/"
                 type="Featured Project"
                 img={crwn}
                 github="https://github.com/AbdelwahabTop/crwn-clothing-v2"
@@ -174,7 +175,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Evo Gym"
-                link="https://7bb3968e.gym-typescript-9gy.pages.dev/"
+                link="https://evogym-abdelwa7ab.netlify.app/"
                 type="Featured Project"
                 img={gym}
                 github="https://github.com/AbdelwahabTop/gym-typescript-tailwind"
@@ -182,14 +183,13 @@ const projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
+                title="Forkify"
+                summary="recipe food application using JavaScript, incorporating various important concepts such as OOP, 
+                MVC architecture, APIs, asynchronous programming, and modules."
+                link="https://forkify-abdelwa7ab.netlify.app/"
                 type="Featured Project"
-                img={project1}
-                github="/"
+                img={forkify}
+                github="https://github.com/AbdelwahabTop/Forkify"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
