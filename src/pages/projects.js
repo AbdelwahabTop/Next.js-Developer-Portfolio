@@ -10,6 +10,8 @@ import crwn from "../../public/images/projects/crwn2.png";
 import github from "../../public/images/projects/github.png";
 import gym from "../../public/images/projects/gym (2).png";
 import forkify from "../../public/images/projects/Adeline Palmerston (1).png";
+import bankistFictional from "../../public/images/projects/Bankist-fictional(2).png";
+import bankistMarkiting from "../../public/images/projects/bankist-markiting.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -194,20 +196,38 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
+                title="Bankist (Fictional Bank)"
+                link="https://bankist-fictional.netlify.app/"
                 type="Featured Project"
-                img={project1}
-                github="/"
+                img={bankistFictional}
+                github="https://github.com/AbdelwahabTop/Bankist-fictional-bank"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                link="/"
+                title="Bankist (Marketing Website)"
+                link="https://bankist-marketing-abdelwa7ab.netlify.app/"
                 type="Featured Project"
-                img={project1}
-                github="/"
+                img={bankistMarkiting}
+                github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Mapty"
+                link="https://bankist-marketing-abdelwa7ab.netlify.app/"
+                type="Featured Project"
+                img={bankistMarkiting}
+                github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Bankist (Marketing Website)"
+                link="https://bankist-marketing-abdelwa7ab.netlify.app/"
+                type="Featured Project"
+                img={bankistMarkiting}
+                github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
               />
             </div>
           </div>
