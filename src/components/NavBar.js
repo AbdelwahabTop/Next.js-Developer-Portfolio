@@ -6,6 +6,7 @@ import {
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
+  PinterestIcon,
   Instagram,
   Youtub,
   SunIcon,
@@ -225,24 +226,23 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-            href="https://www.instagram.com/abdoabdel918/"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
-          >
-            <Instagram />
-          </motion.a>
-          <motion.a
-            href="https://www.youtube.com/@muscularsaitama3473"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
-          >
-            <Youtub />
-          </motion.a>
-
+              href="https://www.instagram.com/abdoabdel918/"
+              target={"_blank"}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-6 m-1 mx-3 dark:bg-dark rounded-full sm:mx-1"
+            >
+              <Instagram />
+            </motion.a>
+            <motion.a
+              href="https://www.youtube.com/@muscularsaitama3473"
+              target={"_blank"}
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-6 m-1 ml-3 sm:mx-1"
+            >
+              <Youtub />
+            </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
