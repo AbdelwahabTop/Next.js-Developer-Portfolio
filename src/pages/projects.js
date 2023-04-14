@@ -5,13 +5,14 @@ import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import crwn from "../../public/images/projects/crwn2.png";
 import github from "../../public/images/projects/github.png";
 import gym from "../../public/images/projects/gym (2).png";
 import forkify from "../../public/images/projects/Adeline Palmerston (1).png";
 import bankistFictional from "../../public/images/projects/Bankist-fictional(2).png";
 import bankistMarkiting from "../../public/images/projects/bankist-markiting.png";
+import mapty from "../../public/images/projects/Mapty.png";
+import pigGame from "../../public/images/projects/pig-game.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -215,19 +216,37 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Mapty"
-                link="https://bankist-marketing-abdelwa7ab.netlify.app/"
+                link="https://mapty-abdelwa7ab.netlify.app/"
                 type="Featured Project"
-                img={bankistMarkiting}
-                github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
+                img={mapty}
+                github="https://github.com/AbdelwahabTop/Mapty"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Bankist (Marketing Website)"
-                link="https://bankist-marketing-abdelwa7ab.netlify.app/"
+                title="Pig Game"
+                link="https://pig-game-abdelwa7ab.netlify.app/"
                 type="Featured Project"
-                img={bankistMarkiting}
-                github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
+                img={pigGame}
+                github="https://github.com/AbdelwahabTop/Pig-game"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Net Ninja Pro"
+                link="https://net-ninja-pro.netlify.app/"
+                type="Featured Project"
+                img={pigGame}
+                github="https://github.com/AbdelwahabTop/net-ninja-bootstrap"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Pig Game"
+                link="https://pig-game-abdelwa7ab.netlify.app/"
+                type="Featured Project"
+                img={pigGame}
+                github="https://github.com/AbdelwahabTop/Pig-game"
               />
             </div>
           </div>
