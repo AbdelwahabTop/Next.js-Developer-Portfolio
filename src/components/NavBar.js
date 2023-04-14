@@ -6,7 +6,6 @@ import {
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   Instagram,
   Youtub,
   SunIcon,
@@ -227,7 +226,7 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://www.instagram.com/abdoabdel918/"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -244,7 +243,7 @@ const NavBar = () => {
               className="w-6 m-1 ml-3 sm:mx-1"
             >
               <Youtub />
-            </motion.a>
+            </motion.a> */}
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
