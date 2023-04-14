@@ -13,6 +13,8 @@ import bankistFictional from "../../public/images/projects/Bankist-fictional(2).
 import bankistMarkiting from "../../public/images/projects/bankist-markiting.png";
 import mapty from "../../public/images/projects/Mapty.png";
 import pigGame from "../../public/images/projects/pig-game.png";
+import netNinja from "../../public/images/projects/net-ninja.png";
+import leon from "../../public/images/projects/leon.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -236,17 +238,17 @@ const projects = () => {
                 title="Net Ninja Pro"
                 link="https://net-ninja-pro.netlify.app/"
                 type="Featured Project"
-                img={pigGame}
+                img={netNinja}
                 github="https://github.com/AbdelwahabTop/net-ninja-bootstrap"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Pig Game"
-                link="https://pig-game-abdelwa7ab.netlify.app/"
+                title="Leon"
+                link="https://leon-abdelwa7ab.netlify.app/"
                 type="Featured Project"
-                img={pigGame}
-                github="https://github.com/AbdelwahabTop/Pig-game"
+                img={leon}
+                github="https://github.com/AbdelwahabTop/Leon"
               />
             </div>
           </div>

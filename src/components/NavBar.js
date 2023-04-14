@@ -6,7 +6,6 @@ import {
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   Instagram,
   Youtub,
   SunIcon,
@@ -104,7 +103,6 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-8" />
           <CustomLink href="/about" title="About" className="mx-8" />
           <CustomLink href="/projects" title="Projects" className="mx-8" />
-          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
@@ -196,7 +194,6 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
@@ -228,29 +225,30 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://www.instagram.com/abdoabdel918/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 m-1 mx-3 dark:bg-dark rounded-full sm:mx-1"
-            >
-              <Instagram />
-            </motion.a>
-            <motion.a
-              href="https://www.youtube.com/@muscularsaitama3473"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 m-1 ml-3 sm:mx-1"
-            >
-              <Youtub />
-            </motion.a>
+            href="https://www.instagram.com/abdoabdel918/"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <Instagram />
+          </motion.a>
+          <motion.a
+            href="https://www.youtube.com/@muscularsaitama3473"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <Youtub />
+          </motion.a>
+
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 m-1 sm:mx-1 flex items-center justify-center rounded-full p-1 
-          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
-          `}
+              ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+              `}
             >
               {mode === "dark" ? (
                 <MoonIcon className={"fill-dark"} />
