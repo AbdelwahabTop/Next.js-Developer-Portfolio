@@ -55,15 +55,15 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm <strong>Abdelwahab</strong>, a web developer and AWS certified with a
+                Hi, I&apos;m <strong>Abdelwahab</strong>, a web developer and AWS certified with a
                 passion for creating beautiful, functional, and user-centered
                 digital experiences. With 1 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                clients&apos; visions to life.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
-                pretty – it's about solving problems and creating intuitive,
+                pretty – it&apos;s about solving problems and creating intuitive,
                 enjoyable experiences for users.
               </p>
               <p className="font-medium">
