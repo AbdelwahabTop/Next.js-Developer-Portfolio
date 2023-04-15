@@ -55,7 +55,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Abdelwahab, a web developer and AWS certified with a
+                Hi, I'm <strong>Abdelwahab</strong>, a web developer and AWS certified with a
                 passion for creating beautiful, functional, and user-centered
                 digital experiences. With 1 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
@@ -67,8 +67,7 @@ const about = () => {
                 enjoyable experiences for users.
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
+                I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
                 your next project.
