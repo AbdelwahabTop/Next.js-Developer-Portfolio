@@ -122,7 +122,7 @@ const Project = ({ type, title, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <div className="w-full mt-2 flex items-center justify-between">
+        <div className="w-full flex items-center justify-between">
           <Link
             href={link}
             target="_blank"
@@ -151,7 +151,7 @@ const projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Imagination Trumps Knowledge!"
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 xl:text-6xl lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl !leading-tight"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
