@@ -57,7 +57,7 @@ export default function Home() {
                   <LinkArrow className={"h-auto ml-1 !w-6 md:!w-4"} />
                 </Link>
                 <Link
-                  href="mailto:mramged936@gmail.com"
+                  href="mailto:contact@abdelwahab.tech"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
