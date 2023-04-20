@@ -75,7 +75,7 @@ const Certification = () => {
             I have gained knowledge of the core AWS services, including compute, storage, database, and network services.
             also I have learned about AWS security and compliance concepts, 
             including identity and access management, encryption, and auditing."
-            size=""
+            size="!text-2xl"
           />
 
           <Details
@@ -94,6 +94,7 @@ const Certification = () => {
             - Testing with Jest and Snapshot testing
             - React Best Practices - Persistance + Session Storage - State Normalization
             "
+            size="!text-2xl"
           />
         </ul>
       </div>

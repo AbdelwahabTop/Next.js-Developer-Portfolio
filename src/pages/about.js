@@ -51,16 +51,16 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             {/* Paragraph */}
-            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
+            <div className="col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
               <p className="font-medium">
                 Hi, I&apos;m <strong>Abdelwahab</strong>, a web developer and
                 AWS certified with a passion for creating beautiful, functional,
-                and user-centered digital experiences. With 1 years of
-                experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+                and user-centered digital experiences. I am always looking for
+                new and innovative ways to bring my clients&apos; visions to
+                life.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
@@ -88,16 +88,16 @@ const about = () => {
               />
             </div>
             {/* Animated Numbers */}
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+            <div className="col-span-2 flex flex-col items-end justify-around xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={10} />+
+                  <AnimatedNumbers value={1200} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
                 sm:text-base xs:text-sm"
                 >
-                  satisfied clients
+                  Github Contributions
                 </h2>
               </div>
 
@@ -113,7 +113,7 @@ const about = () => {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xl:items-center">
+              {/* <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={1} />+
                 </span>
@@ -123,7 +123,7 @@ const about = () => {
                 >
                   years of experience
                 </h2>
-              </div>
+              </div> */}
             </div>
           </div>
 

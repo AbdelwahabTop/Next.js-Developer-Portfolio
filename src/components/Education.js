@@ -51,10 +51,25 @@ const Education = () => {
             type="Bachelor of Civil Engineering"
             time="2018-2023"
             place="Zagazig University"
-            info=" The Department of Civil Engineering at Zagazig University provides students with a strong foundation in the principles and practices of civil engineering.
+            info=" The Department of Civil Engineering at Zagazig University provides students with a strong foundation 
+            in the principles and practices of civil engineering.
+            The curriculum is designed to prepare students for professional practice in the field of civil engineering,
+            with an emphasis on problem-solving, critical thinking, and effective communication.
+                
 
-            The Civil Engineering program at Zagazig University covers a broad range of topics, including structural engineering, geotechnical engineering, transportation engineering, water resources engineering, and construction management. The curriculum is designed to prepare students for professional practice in the field of civil engineering, with an emphasis on problem-solving, critical thinking, and effective communication.
-                "
+            The Civil Engineering program at Zagazig University covers a broad range of topics, including 
+            Basic programming to automate tasks, analyze data, optimize processes. Project management, structural engineering,
+            geotechnical engineering, transportation engineering and water resources engineering. 
+            "
+            size="!text-xl"
+          />
+
+          <Details
+            type="Online Coursework"
+            time="2022-2023"
+            place="Coursera, EdX And Udemy"
+            info=" Completed coursework such as CS50, Advanced JavaScript, Complete React Developer and more.
+            "
             size="!text-xl"
           />
         </ul>
