@@ -78,7 +78,7 @@ const Experience = () => {
             size="!text-xl"
           />
 
-          <Details
+          {/* <Details
             position="Front End Developer"
             company="Upwork"
             time="10/2022-4/2023"
@@ -88,7 +88,7 @@ const Experience = () => {
                   , delivering high-quality work, and meeting project deadlines. 
                   , and expanding my skills and knowledge. 
                 "
-          />
+          /> */}
         </ul>
       </div>
     </div>
