@@ -1,6 +1,7 @@
 import AnimatedText from "@/components/AnimatedText";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
+import Certification from "@/components/Certification";
 import Layout from "@/components/Layout";
 import Skills from "@/components/Skills";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -55,22 +56,21 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m <strong>Abdelwahab</strong>, a web developer and AWS certified with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 1 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m <strong>Abdelwahab</strong>, a web developer and
+                AWS certified with a passion for creating beautiful, functional,
+                and user-centered digital experiences. With 1 years of
+                experience in the field. I am always looking for new and
+                innovative ways to bring my clients&apos; visions to life.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                pretty – it&apos;s about solving problems and creating
+                intuitive, enjoyable experiences for users.
               </p>
               <p className="font-medium">
-                I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I bring my commitment to design excellence and user-centered
+                thinking to every project I work on. I look forward to the
+                opportunity to bring my skills and passion to your next project.
               </p>
             </div>
             {/* Image */}
@@ -93,8 +93,10 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={10} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
-                sm:text-base xs:text-sm">
+                <h2
+                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
+                sm:text-base xs:text-sm"
+                >
                   satisfied clients
                 </h2>
               </div>
@@ -103,8 +105,10 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={15} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
-                sm:text-base xs:text-sm">
+                <h2
+                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
+                sm:text-base xs:text-sm"
+                >
                   projects completed
                 </h2>
               </div>
@@ -113,8 +117,10 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={1} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
-                sm:text-base xs:text-sm">
+                <h2
+                  className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg
+                sm:text-base xs:text-sm"
+                >
                   years of experience
                 </h2>
               </div>
@@ -122,6 +128,7 @@ const about = () => {
           </div>
 
           <Skills />
+          <Certification />
           <Experience />
           <Education />
         </Layout>
