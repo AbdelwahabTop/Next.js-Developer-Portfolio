@@ -88,7 +88,7 @@ const about = () => {
               />
             </div>
             {/* Animated Numbers */}
-            <div className="col-span-2 flex flex-col items-end justify-around xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+            <div className="col-span-2 flex flex-col items-end justify-around sm:justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={1200} />+
