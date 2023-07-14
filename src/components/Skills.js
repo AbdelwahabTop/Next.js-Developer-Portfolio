@@ -42,6 +42,9 @@ const Skills = () => {
         </motion.div>
 
         <Skill name="HTML" x="-15vw" y="0vw" />
+        <Skill name="SQL" x="-23vw" y="7vw" />
+        <Skill name="PHP" x="13vw" y="0vw" />
+        <Skill name="MySql" x="9vw" y="-7vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
         <Skill name="Javascript" x="21vw" y="4vw" />
         <Skill name="ReactJS" x="0vw" y="14vw" />
