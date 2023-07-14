@@ -164,7 +164,8 @@ const projects = () => {
                 The website allows users to browse through clothing items, add them to their shopping cart, 
                 and complete the purchase process with an integrated payment system."
                 link="https://crwn-clothing-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="React, Context API, Redux[Thunk, Saga], GraphQL,
+                TypeScript, Firebase, Styled components, Stripe."
                 img={crwn}
                 github="https://github.com/AbdelwahabTop/crwn-clothing-v2"
               />
@@ -173,7 +174,7 @@ const projects = () => {
               <Project
                 title="Github Users"
                 link="https://abdo-github-users.netlify.app/login"
-                type="Featured Project"
+                type="React, Context API, Auth0"
                 img={github}
                 github="https://github.com/AbdelwahabTop/Github-Users"
               />
@@ -182,7 +183,7 @@ const projects = () => {
               <Project
                 title="Evo Gym"
                 link="https://evogym-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="React, TypeScript, Tailwind css"
                 img={gym}
                 github="https://github.com/AbdelwahabTop/gym-typescript-tailwind"
               />
@@ -190,12 +191,9 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Content Management System"
-                summary="This project involved developing a fully functional e-commerce clothing store using a modern technology 
-                stack that includes React, TypeScript, Firebase, Stripe, Redux, and GraphQL. 
-                The website allows users to browse through clothing items, add them to their shopping cart, 
-                and complete the purchase process with an integrated payment system."
+                summary="The project is a Content Management System (CMS) built using PHP, following the Model-View-Controller (MVC) and Object-Oriented Programming (OOP) design patterns."
                 link="https://cms-abdo.000webhostapp.com/"
-                type="Featured Project"
+                type="PHP, SQL, MySql, MVC, OOP, PDO"
                 img={cms}
                 github="https://github.com/AbdelwahabTop/cms-php-mvc"
               />
@@ -206,7 +204,7 @@ const projects = () => {
                 summary="recipe food application using JavaScript, incorporating various important concepts such as OOP, 
                 MVC architecture, APIs, asynchronous programming, and modules."
                 link="https://forkify-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="JavaScript, APIs, MVC architecture, OOP, async JavaScript."
                 img={forkify}
                 github="https://github.com/AbdelwahabTop/Forkify"
               />
@@ -215,7 +213,7 @@ const projects = () => {
               <Project
                 title="Bankist (Fictional Bank)"
                 link="https://bankist-fictional.netlify.app/"
-                type="Featured Project"
+                type="JavaScript, OOP"
                 img={bankistFictional}
                 github="https://github.com/AbdelwahabTop/Bankist-fictional-bank"
               />
@@ -224,7 +222,7 @@ const projects = () => {
               <Project
                 title="Bankist (Marketing Website)"
                 link="https://bankist-marketing-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="JavaScript"
                 img={bankistMarkiting}
                 github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
               />
@@ -233,7 +231,7 @@ const projects = () => {
               <Project
                 title="Mapty"
                 link="https://mapty-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="JavaScript, OOP"
                 img={mapty}
                 github="https://github.com/AbdelwahabTop/Mapty"
               />
@@ -242,7 +240,7 @@ const projects = () => {
               <Project
                 title="Pig Game"
                 link="https://pig-game-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="JavaScript"
                 img={pigGame}
                 github="https://github.com/AbdelwahabTop/Pig-game"
               />
@@ -251,7 +249,7 @@ const projects = () => {
               <Project
                 title="Net Ninja Pro"
                 link="https://net-ninja-pro.netlify.app/"
-                type="Featured Project"
+                type="Bootstrap"
                 img={netNinja}
                 github="https://github.com/AbdelwahabTop/net-ninja-bootstrap"
               />
@@ -260,7 +258,7 @@ const projects = () => {
               <Project
                 title="Leon"
                 link="https://leon-abdelwa7ab.netlify.app/"
-                type="Featured Project"
+                type="Html, CSS"
                 img={leon}
                 github="https://github.com/AbdelwahabTop/Leon"
               />
