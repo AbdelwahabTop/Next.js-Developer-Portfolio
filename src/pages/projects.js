@@ -15,6 +15,7 @@ import mapty from "../../public/images/projects/Mapty.png";
 import pigGame from "../../public/images/projects/pig-game.png";
 import netNinja from "../../public/images/projects/net-ninja.png";
 import leon from "../../public/images/projects/leon.png";
+import cms from "../../public/images/projects/cms.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -184,6 +185,19 @@ const projects = () => {
                 type="Featured Project"
                 img={gym}
                 github="https://github.com/AbdelwahabTop/gym-typescript-tailwind"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Content Management System"
+                summary="This project involved developing a fully functional e-commerce clothing store using a modern technology 
+                stack that includes React, TypeScript, Firebase, Stripe, Redux, and GraphQL. 
+                The website allows users to browse through clothing items, add them to their shopping cart, 
+                and complete the purchase process with an integrated payment system."
+                link="https://cms-abdo.000webhostapp.com/"
+                type="Featured Project"
+                img={cms}
+                github="https://github.com/AbdelwahabTop/cms-php-mvc"
               />
             </div>
             <div className="col-span-12">
