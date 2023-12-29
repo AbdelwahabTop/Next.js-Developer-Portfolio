@@ -8,10 +8,11 @@ import { GithubIcon } from "@/components/icons";
 import crwn from "../../public/images/projects/eccomerce.png";
 import github from "../../public/images/projects/github.png";
 import gym from "../../public/images/projects/gym.png";
+import hosting from "../../public/images/projects/hosting.png";
 import kemet from "../../public/images/projects/kemete.png";
 import forkify from "../../public/images/projects/forkify.png";
-import bankistFictional from "../../public/images/projects/Bankist-fictional(2).png";
-import bankistMarkiting from "../../public/images/projects/bankist-markiting.png";
+import bankistFictional from "../../public/images/projects/bankF.png";
+import bankistMarkiting from "../../public/images/projects/bankM.png";
 import mapty from "../../public/images/projects/Mapty.png";
 import pigGame from "../../public/images/projects/pig-game.png";
 import netNinja from "../../public/images/projects/net-ninja.png";
@@ -214,11 +215,11 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Bankist (Fictional Bank)"
-                link="https://bankist-fictional.netlify.app/"
+                title="Eco Hosting"
+                link="https://eco-hosting-abdelwahab.netlify.app/"
                 type="Featured Project"
-                img={bankistFictional}
-                github="https://github.com/AbdelwahabTop/Bankist-fictional-bank"
+                img={hosting}
+                github="https://github.com/AbdelwahabTop/eco-hosting.git"
               />
             </div>
 
