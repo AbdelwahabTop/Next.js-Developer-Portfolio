@@ -175,13 +175,22 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
+                title="Kemet Travel"
+                link="https://kemet-travel-abdelwahab.netlify.app/en/"
+                type="Featured Project"
+                img={kemet}
+                github="https://github.com/AbdelwahabTop/Kemettraveluae.git"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Evo Gym"
                 link="https://evogym-abdelwa7ab.netlify.app/"
                 type="React, TypeScript, Tailwind css"
                 img={gym}
                 github="https://github.com/AbdelwahabTop/gym-typescript-tailwind"
               />
-            </div>
+            </div> */}
             <div className="col-span-12">
               <FeaturedProject
                 title="Content Management System"
@@ -204,15 +213,6 @@ const projects = () => {
               />
             </div>
 
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Kemet Travel"
-                link="https://kemet-travel-abdelwahab.netlify.app/en/"
-                type="Featured Project"
-                img={kemet}
-                github="https://github.com/AbdelwahabTop/Kemettraveluae.git"
-              />
-            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Eco Hosting"
