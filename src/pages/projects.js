@@ -10,6 +10,7 @@ import github from "../../public/images/projects/github.png";
 import gym from "../../public/images/projects/gym.png";
 import hosting from "../../public/images/projects/hosting.png";
 import kemet from "../../public/images/projects/kemete.png";
+import travel from "../../public/images/projects/travel.png";
 import forkify from "../../public/images/projects/forkify.png";
 import bankistFictional from "../../public/images/projects/bankF.png";
 import bankistMarkiting from "../../public/images/projects/bankM.png";
@@ -178,11 +179,11 @@ const projects = () => {
                 title="Kemet Travel"
                 link="https://kemet-travel-abdelwahab.netlify.app/en/"
                 type="Featured Project"
-                img={kemet}
+                img={travel}
                 github="https://github.com/AbdelwahabTop/Kemettraveluae.git"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:colnpm run -span-12">
               <Project
                 title="Evo Gym"
                 link="https://evogym-abdelwa7ab.netlify.app/"
