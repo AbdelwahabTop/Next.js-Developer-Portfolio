@@ -19,6 +19,8 @@ import pigGame from "../../public/images/projects/pig-game.png";
 import netNinja from "../../public/images/projects/net-ninja.png";
 import leon from "../../public/images/projects/leon.png";
 import cms from "../../public/images/projects/cms.png";
+// import comfy from "../../public/images/projects/comfy.png";
+import sloth from "../../public/images/projects/sloth.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -176,13 +178,14 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Kemet Travel"
-                link="https://kemet-travel-abdelwahab.netlify.app/en/"
-                type="Featured Project"
-                img={travel}
-                github="https://github.com/AbdelwahabTop/Kemettraveluae.git"
+                title="Comfy Sloth"
+                link="https://comfy-abdelwahab-sloth.netlify.app/"
+                type="React, Context API, Auth0, Stripe"
+                img={sloth}
+                github="https://github.com/AbdelwahabTop/sloth"
               />
             </div>
+
             {/* <div className="col-span-6 sm:colnpm run -span-12">
               <Project
                 title="Evo Gym"
@@ -202,6 +205,26 @@ const projects = () => {
                 github="https://github.com/AbdelwahabTop/cms-php-mvc"
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Kemet Travel"
+                link="https://kemet-travel-abdelwahab.netlify.app/en/"
+                type="Featured Project"
+                img={travel}
+                github="https://github.com/AbdelwahabTop/Kemettraveluae.git"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Mapty"
+                link="https://mapty-abdelwa7ab.netlify.app/"
+                type="JavaScript, OOP"
+                img={mapty}
+                github="https://github.com/AbdelwahabTop/Mapty"
+              />
+            </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title="Forkify"
@@ -242,15 +265,7 @@ const projects = () => {
                 github="https://github.com/AbdelwahabTop/Bankist-marketing-website"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Mapty"
-                link="https://mapty-abdelwa7ab.netlify.app/"
-                type="JavaScript, OOP"
-                img={mapty}
-                github="https://github.com/AbdelwahabTop/Mapty"
-              />
-            </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Pig Game"
